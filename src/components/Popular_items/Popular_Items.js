@@ -13,32 +13,27 @@ const Popular_Items = () => {
                 <span className="text-5xl text-center text-black pl-5">POPULAR ITEMS</span>
             </div>
             <div className='flex flex-row'>
-                <div className='flex flex-grow justify-center gap-2 m-2'>
+                <div className='flex flex-wrap md:flex-grow justify-center gap-2 m-2'>
                     <div className="card border-4 items-center">
                         <img width={300} src={YLM}/>
-                        <span className='text-xl'>Yuxin's Little Magic</span>
+                        <span className='text-xl font-bold'>Yuxin's Little Magic</span>
                         <p className='text-xl'>₱ 250.00</p> 
                     </div>
                     <div className="card border-4">
                         <img width={300} src={MNX}/>
-                        <span className='text-xl'>Qiyi Megaminx</span>
+                        <span className='text-xl font-bold'>Qiyi Megaminx</span>
                         <p className='text-xl'>₱ 700.00</p>
                     </div>
                     <div className="card border-4">
                         <img width={300} src={GTS}/>
-                        <span className='text-xl'>MOYU Weilong Gts3m</span>
+                        <span className='text-xl font-bold'>MOYU Weilong Gts3m</span>
                         <p className='text-xl'>₱ 1, 300.00</p>
                     </div>
                     <div className="card border-4">
                         <img width={300} src={AUSO}/>
-                        <span className='text-xl'>MOYU Auso WR M</span>
+                        <span className='text-xl font-bold'>MOYU Auso WR M</span>
                         <p className='text-xl'>₱ 2, 100.00</p>
-                    </div>
-                    <div className="card border-4">
-                        <img width={300} src={RS3}/>
-                        <span className='text-xl'>MoFangge MF3RS3</span>
-                        <p className='text-xl'>₱ 500.00</p>
-                    </div>
+                    </div> 
                 </div>
             </div>
             <div className="p-5 m-auto">

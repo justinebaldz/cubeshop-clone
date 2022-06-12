@@ -37,7 +37,7 @@ export default class Fade extends Component {
             nextArrow: <Arrow/>
         };
         return (
-            <div className="w-full place-items-center m-auto mb-[2.5rem]">
+            <div className="hidden sm:block w-full place-items-center m-auto mb-[2.5rem]">
                 <Slider {...settings}>
                     <div>
                         <img src={img_1} />
